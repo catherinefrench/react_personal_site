@@ -1,24 +1,12 @@
 import React from 'react';
-import './App.css';
-import './Navigation/Navigation';
-import './Navigation/Navigation.css';
+import './App.scss';
+import Navigation from './Navigation/Navigation';
+import './Navigation/Navigation.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div class="menu-container"> 
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Goals</a></li>
-            <li><a href="#">Hobbies</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </header>
+      <Navigation />
       <div class="content-container">
         <div class="banner-container">
             <div class="name-container">
