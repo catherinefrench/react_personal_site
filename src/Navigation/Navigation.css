@@ -23,7 +23,17 @@
     text-transform: uppercase; 
     font-size: 14px;
     flex-wrap: wrap; 
-    text-decoration: none;
     list-style: none;
     display: inline;
+}
+
+.menu-container li a {
+    text-decoration: none;
+}
+.menu-container li a:visited {
+    color: #000;
+}
+
+.menu-container li a:hover {
+    text-decoration: underline;
 }
