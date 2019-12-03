@@ -5,7 +5,7 @@ const Stack = () => {
 
     return (
 
-        <div class="section">
+        <div class="section"> 
             <div class="title">Stack</div>
             <div class="second tile">
                 <div>

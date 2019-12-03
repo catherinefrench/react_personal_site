@@ -4,7 +4,7 @@ import './Footer.scss';
 const Footer = () => {
     return (
         <footer className="App-footer">
-        <div class="container"> 
+        <div className="container"> 
           <p>Made by Catherine French in Toronto, Canada</p>
         </div>
       </footer>
