@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Navigation from './Navigation/Navigation';
 import Stack from './Stack/Stack';
+import Connect from './Connect/Connect';
 import Footer from './Footer/Footer';
 
 function App() {
@@ -28,9 +29,9 @@ function App() {
                         </div>
                     </div>
               </div>
-              <Stack />
+              <Stack class=""/>
               <div class="section">
-                  <div class="second tile">
+                  <div class="third tile">
                       <div class="text">
                           <p>Although when entering this role I was new to web development, with my strong work ethic within 6 months I was the most productive team member. I was promoted the fastest out of 18 team members for my ability to learn quickly, create solid processes that helped us scale, and for my leadership mindset. In my next role I’d like to gain more exposure with React, a library I've been working with this year.</p>
                       </div>
@@ -41,13 +42,14 @@ function App() {
                   </div>
               </div>
               <div class="section">
-                  <div class="third tile">
+                  <div class="fourth tile">
                       <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
                       <div class="photo">
                         <img src={require('./collaboration.jpg')} alt=""/>
                       </div>
                   </div>
               </div>
+              <Connect class="section"/>
           </div>
       </div>
       <Footer />

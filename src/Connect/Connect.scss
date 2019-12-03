@@ -1,0 +1,26 @@
+.connect {
+    display: flex;
+    height: 80vh;
+    width: 80vh;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos img {
+    height: 3rem;
+    padding: 1.5rem;
+}

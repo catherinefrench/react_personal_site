@@ -7,11 +7,11 @@ const Stack = () => {
 
         <div class="section">
             <div class="title">Stack</div>
-            <div class="first tile">
+            <div class="second tile">
                 <div>
                     <h3 class="sub-heading">Front-End</h3>
                     <div class="logos">
-                        <i class="devicon-javascript-plain"></i>
+                        <i class="devicon-javascript-plain" title="javascript!"></i>
                         <i class="devicon-react-original"></i>
                         <i class="devicon-typescript-plain"></i>
                         <i class="devicon-html5-plain"></i>
