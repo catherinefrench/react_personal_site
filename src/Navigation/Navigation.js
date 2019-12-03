@@ -9,9 +9,9 @@ const Navigation = () => {
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Work</a></li>
+            <li><a href="#">Stack</a></li>
             <li><a href="#">Goals</a></li>
-            <li><a href="#">Hobbies</a></li>
-            <li><a href="#">Sports</a></li>
+            <li><a href="#">Varia</a></li>
             <li><a href="#">Analytics</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
