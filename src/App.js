@@ -23,7 +23,7 @@ function App() {
           <Work />
           <Stack />
           <Goals />
-          <Connect className="section" id="connect" />
+          <Connect className="section" />
         </div>
       </div>
       <Footer />
