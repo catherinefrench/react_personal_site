@@ -4,7 +4,7 @@ import './Stack.scss';
 const Stack = () => {
 
     return (
-        <div className="section stack"> 
+        <div className="section stack" id="stack"> 
             <div className="title">Stack</div>
             <div className="second tile">
                 <div>
@@ -26,7 +26,6 @@ const Stack = () => {
                         <i className="devicon-ruby-plain"></i>
                         <i className="devicon-rails-plain"></i>
                         <i className="devicon-nodejs-plain"></i>
-                        
                     </div>
                 </div>
                 <div>
