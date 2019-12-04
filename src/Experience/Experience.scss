@@ -1,0 +1,18 @@
+.experience {
+    .text-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 80vw;
+    }
+    .text-container .tile {
+        padding: 15px;
+        margin: 40px;
+    }
+    .tile div.text {
+        padding: 15px;
+    }
+    .tile p {
+        font-size: .75rem;
+    }
+}

@@ -14,7 +14,7 @@ const Navigation = () => {
             <li><AnchorLink href="#home">Home</AnchorLink></li> 
             <li><AnchorLink href="#work" offset='50'>Work</AnchorLink></li>
             <li><AnchorLink href="#stack" offset='50'>Stack</AnchorLink></li> 
-            <li><AnchorLink href="#goals" offset='50'>Goals</AnchorLink></li> 
+            <li><AnchorLink href="#experience" offset='50'>Experience</AnchorLink></li> 
             <li><AnchorLink href="#connect" offset='50'>Connect</AnchorLink></li> 
           </ul>
         </div>

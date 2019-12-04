@@ -4,7 +4,7 @@ import Navigation from './Navigation/Navigation';
 import Banner from './Banner/Banner';
 import Work from './Work/Work';
 import Stack from './Stack/Stack';
-import Goals from './Goals/Goals';
+import Experience from './Experience/Experience';
 import Connect from './Connect/Connect';
 import Footer from './Footer/Footer';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -19,7 +19,7 @@ function App() {
         <div className="content-bottom">
           <Work />
           <Stack />
-          <Goals />
+          <Experience />
           <Connect className="section" />
         </div>
       </div>
