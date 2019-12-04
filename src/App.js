@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Navigation from './Navigation/Navigation';
+import Banner from './Banner/Banner';
 import Work from './Work/Work';
 import Stack from './Stack/Stack';
 import Goals from './Goals/Goals';
@@ -12,13 +13,9 @@ function App() {
   return (
     <div className="App" id="home">
       <Navigation />
+      <Banner />
       <div className="content-container">
-        <div className="banner-container">
-          <div className="name-container">
-            <div className="name">Catherine French</div>
-            <div className="title">I'm a Front-End Developer</div>
-          </div>
-        </div>
+
         <div className="content-bottom">
           <Work />
           <Stack />

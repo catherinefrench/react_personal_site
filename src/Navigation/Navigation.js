@@ -20,11 +20,6 @@ const Navigation = () => {
         </div>
       </header>
     )
-};
-
-// ReactDOM.render(
-//   <Navigation />,
-//   document.getElementById('content')
-// )
+}; 
 
 export default Navigation;
