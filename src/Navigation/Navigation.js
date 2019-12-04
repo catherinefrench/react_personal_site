@@ -4,7 +4,7 @@ import './Navigation.scss';
 
 const Navigation = () => {
     return (
-        <header className="App-header">
+        <header className="app-header">
         <div className="menu-container"> 
           <ul>
             <li><a href="#">Home</a></li>
