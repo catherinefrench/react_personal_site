@@ -7,7 +7,7 @@ const Stack = () => {
         <div className="section stack" id="stack"> 
             <div className="title">Stack</div>
             <div className="second tile">
-                <div>
+                <div class="front">
                     <h3 className="sub-heading">Front-End</h3>
                     <div className="logos">
                         <i className="devicon-javascript-plain" title="javascript!"></i>
@@ -20,7 +20,7 @@ const Stack = () => {
                         <i className="devicon-webpack-plain"></i>
                     </div>
                 </div>
-                <div>
+                <div class="back">
                     <h3 className="sub-heading">Back-End</h3>
                     <div className="logos">
                         <i className="devicon-ruby-plain"></i>
@@ -28,7 +28,7 @@ const Stack = () => {
                         <i className="devicon-nodejs-plain"></i>
                     </div>
                 </div>
-                <div>
+                <div class="other">
                     <h3 className="sub-heading">Other</h3>
                     <div className="logos">
                         <i className="devicon-trello-plain"></i>
