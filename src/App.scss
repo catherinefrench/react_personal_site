@@ -19,9 +19,9 @@
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: #0B4327 url("trellis-tile.svg") repeat; 
-  background: #0B8559 url("trellis-tile.svg") repeat; 
-  height: 100vh;
+  // background: #0B4327 url("trellis-tile.svg") repeat; 
+  background: #FFF url("trellis-tile-new.svg") repeat; 
+  height: 97vh;
   width: 100vw;
   stroke: transparent;
   stroke-width: 0px;
@@ -39,8 +39,8 @@
   width: 40%; 
   background-color: #FFFFFF;
   padding: 60px;
-  border: 8px #0B4327 solid;
-  border: 8px #0B8559 solid;
+  // border: 8px #0B4327 solid;
+  border: 6px #0B8559 solid;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -73,7 +73,7 @@
   padding: 10px 10px;
   text-align: center; 
   border: 1px solid #aaa;
-  width:60%;
+  width:60vw;
   margin: 60px auto;
 
 }
