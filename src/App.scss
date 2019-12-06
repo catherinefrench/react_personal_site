@@ -123,7 +123,7 @@
       background-color: #FFF;
       align-items: center;
       justify-content: center;
-      box-shadow: 1px 0px 15px #aaa;
+      box-shadow: 1px 0px 20px #aaa;
       font-weight: 700;
       min-height: 2.5rem;
   }
@@ -142,15 +142,15 @@
       display: inline;
   }
   
-  .menu-container li Link {
+  .menu-container li a {
       text-decoration: none;
       color: #000;
   }
-  .menu-container li Link:visited {
+  .menu-container li a:visited {
       color: #000;
   }
   
-  .menu-container li Link:hover {
+  .menu-container li a:hover {
       text-decoration: underline;
   }
 }
