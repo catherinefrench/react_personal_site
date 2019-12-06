@@ -7,7 +7,6 @@ import Stack from './Stack/Stack';
 import Experience from './Experience/Experience';
 import Connect from './Connect/Connect';
 import Footer from './Footer/Footer';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function App() {
   return (

@@ -1,7 +1,4 @@
-import React from 'react';
-
-import ReactDOM from 'react-dom';
-
+import React from 'react'; 
 import './Navigation.scss';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
