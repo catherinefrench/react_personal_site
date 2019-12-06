@@ -14,8 +14,7 @@ class App extends Component {
   render() {
     return (
     <Router>
-      <div className="App" id="home">
-        {/* <Navigation /> */}
+      <div className="App" id="home"> 
         <header className="app-header">
         <div className="menu-container"> 
           <ul>
@@ -44,11 +43,8 @@ class App extends Component {
               <Route path='/connect'></Route> 
         </Switch>
         <Footer />
-
       </div>
-
     </Router>
-
     );
   };
 }
