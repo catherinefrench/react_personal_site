@@ -143,6 +143,11 @@
   }
   
   .menu-container li a:hover {
-      text-decoration: underline;
+    text-decoration: underline;
+  }
+
+  .menu-container li a.active {
+    // font-weight: 700;
+    text-decoration: underline;
   }
 }

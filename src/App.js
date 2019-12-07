@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 import './App.scss';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 // import Navigation from './Navigation/Navigation';
@@ -18,11 +18,11 @@ class App extends Component {
         <header className="app-header">
         <div className="menu-container"> 
           <ul>
-              <li><AnchorLink href="#home" offset='50'><Link to="/">Home</Link></AnchorLink></li> 
-              <li><AnchorLink href="#work" offset='50'><Link to="/work">Work</Link></AnchorLink></li>
-              <li><AnchorLink href="#stack" offset='50'><Link to="/stack">Stack</Link></AnchorLink></li> 
-              <li><AnchorLink href="#experience" offset='50'><Link to="/experience">Experience</Link></AnchorLink></li> 
-              <li><AnchorLink href="#connect" offset='50'><Link to="/connect">Connect</Link></AnchorLink></li> 
+              <li><AnchorLink href="#home" offset='50'><NavLink to="/" activeClassName="selected">Home</NavLink></AnchorLink></li> 
+              <li><AnchorLink href="#work" offset='50'><NavLink to="/work">Work</NavLink></AnchorLink></li>
+              <li><AnchorLink href="#stack" offset='50'><NavLink to="/stack">Stack</NavLink></AnchorLink></li> 
+              <li><AnchorLink href="#experience" offset='50'><NavLink to="/experience">Experience</NavLink></AnchorLink></li> 
+              <li><AnchorLink href="#connect" offset='50'><NavLink to="/connect">Connect</NavLink></AnchorLink></li> 
           </ul>
         </div>
       </header>
