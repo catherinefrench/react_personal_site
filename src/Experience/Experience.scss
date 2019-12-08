@@ -1,25 +1,35 @@
 .experience {
     .text-container {
-        display: flex;
-        align-items: stretch;
-        justify-content: center;
-        width: 80vw;
+        display: block;
+        width: 90vw;
     }
     .text-container .tile {
         padding: 15px;
         margin: 40px;
+        width: auto;
     }
     .tile div.text {
-        padding: 15px;
+        padding: 1.5rem;
     }
     .tile p {
-        font-size: .75rem;
+        font-size: 1rem;
+        padding: 0.75rem;
     }
     .job-title {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
         text-transform: uppercase;
     }
     .date {
         font-weight: 700;
+    }
+    @media screen and (min-width: 600px) {
+        .text-container {
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+        }
+        .job-title {
+            font-size: 1.75rem;
+        }
     }
 }
