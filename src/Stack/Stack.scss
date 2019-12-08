@@ -4,26 +4,37 @@
         flex-wrap: wrap;
         padding: 0.5rem;
         color: #1F1D41;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .logos i { 
-        padding: 0.75rem;
+        padding: 0.5rem;
     }
     
     .second.tile {
         display: block;
+        width: 90vw;
+        padding: 1rem;
     }
+    .tile > div {
+        padding: 1rem;
+    };
     .back {
         flex-basis: 25%;
     }
 
     @media screen and (min-width: 600px) {
+        .logos {
+            font-size: 3rem;
+        }
         .logos i { 
             padding: 0.75rem;
         }
         .second.tile {
+            display: flex;
+            justify-content: center;
             align-items: flex-start;
+            padding: 2rem;
         }
     }
 
