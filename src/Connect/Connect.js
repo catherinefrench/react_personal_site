@@ -3,7 +3,7 @@ import './Connect.scss';
 
 const Connect = () => {
     return (
-        <div className="connect"  id="connect">
+        <div className="section connect"  id="connect">
             <div className="container"> 
                 <div className="title">Let's<br/>Connect</div>
                 <div className="logos">

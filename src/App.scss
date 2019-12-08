@@ -50,7 +50,7 @@
 }
 
 .content-bottom { 
-  width: 100%;
+  width: 100vw;
   display: flex; 
   flex-direction: column;
   justify-content: center;
@@ -63,8 +63,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  // height: 100vh;
   width: 100vw;
+  padding: 3rem 0;
 }
 
 .content-bottom .tile {
@@ -105,14 +106,21 @@
 .section .title {
   font-size: 4rem;
   font-family: 'Playfair Display', serif;
+  margin: 1rem 0;
 }
 
-.content-bottom .tile > div {
-  padding: 2rem;
+
+.work {
+  .tile div {
+    padding: 2.25rem 2rem;
+  }
+  .tile .text p {
+    margin: 1rem 0;
+  }
 }
  
-.tile .text {
-  font-size: 1rem;
+.tile .text p {
+  font-size: 1.25rem;
   line-height: 1.5;
 } 
 .app-header {

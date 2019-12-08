@@ -5,7 +5,7 @@ import './Work.scss';
 const Work = () => {
 
     return (
-        <div className="section" id="work">
+        <div className="section work" id="work">
         <div className="title">Work</div>
         <div className="first tile"> 
             <div className="text work">

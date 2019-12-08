@@ -16,7 +16,7 @@ class App extends Component {
     <Router>
       <div className="App" id="home"> 
         <header className="app-header">
-        <div className="menu-container"> 
+        <nav className="menu-container"> 
           <ul>
               <li><AnchorLink href="#home" offset='50'><NavLink to="/" activeClassName="selected">Home</NavLink></AnchorLink></li> 
               <li><AnchorLink href="#work" offset='50'><NavLink to="/work">Work</NavLink></AnchorLink></li>
@@ -24,7 +24,7 @@ class App extends Component {
               <li><AnchorLink href="#experience" offset='50'><NavLink to="/experience">Experience</NavLink></AnchorLink></li> 
               <li><AnchorLink href="#connect" offset='50'><NavLink to="/connect">Connect</NavLink></AnchorLink></li> 
           </ul>
-        </div>
+        </nav>
       </header>
         <Banner />
         <div className="content-container"> 

@@ -5,14 +5,13 @@
     }
     .text-container .tile {
         padding: 15px;
-        margin: 40px;
+        // margin: 40px;
         width: auto;
     }
     .tile div.text {
         padding: 1.5rem;
     }
-    .tile p {
-        font-size: 1rem;
+    .tile p { 
         padding: 0.75rem;
     }
     .job-title {
@@ -23,13 +22,21 @@
         font-weight: 700;
     }
     @media screen and (min-width: 600px) {
+        .job-title {
+            font-size: 1.75rem;
+        }
+        .text-container .tile {
+            margin: 3rem auto;
+        }
+    }
+    @media screen and (min-width: 768px) {
         .text-container {
             display: flex;
             align-items: stretch;
             justify-content: center;
         }
-        .job-title {
-            font-size: 1.75rem;
+        .text-container .tile {
+            margin: 1rem;
         }
     }
 }
