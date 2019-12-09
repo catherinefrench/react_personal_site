@@ -63,7 +63,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "deploy": "aws s3 sync build/ s3://catherinefrench.ca --acl public-read"
+    "deploy": "aws s3 sync build/ s3://catherinefrench.ca"
   },
   "eslintConfig": {
     "extends": "react-app"
