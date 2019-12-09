@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d01bf12.chunk.css",
+    "main.js": "/static/js/main.c483f394.chunk.js",
+    "main.js.map": "/static/js/main.c483f394.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fe5a4692.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fe5a4692.js.map",
+    "static/js/2.8ab06b6f.chunk.js": "/static/js/2.8ab06b6f.chunk.js",
+    "static/js/2.8ab06b6f.chunk.js.map": "/static/js/2.8ab06b6f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.01873b6f21b4b2f6c64aa3b23c51db3e.js": "/precache-manifest.01873b6f21b4b2f6c64aa3b23c51db3e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7d01bf12.chunk.css.map": "/static/css/main.7d01bf12.chunk.css.map",
+    "static/media/github.png": "/static/media/github.afb54e4e.png",
+    "static/media/App.scss": "/static/media/trellis-tile-new.b449b96c.svg",
+    "static/media/twitter.png": "/static/media/twitter.65a10b63.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe5a4692.js",
+    "static/js/2.8ab06b6f.chunk.js",
+    "static/css/main.7d01bf12.chunk.css",
+    "static/js/main.c483f394.chunk.js"
+  ]
+}
