@@ -47,6 +47,8 @@
 .name-container .title {
   padding: 1rem 0;
   font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
   /* flex-basis:1; */
 }
 
@@ -90,6 +92,8 @@
   }
   .name-container .title { 
     font-size: 1.75rem;
+    font-weight: 400;
+    text-align: center;
     /* flex-basis:1; */
   }
   .content-bottom .tile {
