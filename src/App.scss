@@ -1,13 +1,28 @@
-.App {
-  /* text-align: center; */
+.App { 
   font-family: 'Playfair Display', serif;
 } 
 
 .app-header {
   background-color: #FFF;
-}
-.App-link {
-  color: #09d3ac;
+} 
+.menu-container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 999; 
+  padding: 15px 0;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 0px 15px #aaa;
+
+  div {
+    padding: 5px 25px;
+    text-transform: uppercase;  
+    flex-wrap: wrap; 
+  }
 }
 
 .banner-container {
@@ -23,6 +38,7 @@
   stroke: transparent;
   stroke-width: 0px;
 }
+
 .name-container {
   display: flex;
   flex-direction: column; 
@@ -34,26 +50,23 @@
   padding: 4.5rem; 
   border: 0.5rem #0B8559 solid;
   font-family: 'Raleway', sans-serif;
+
+  .name {
+    font-size: 2.5rem;
+    font-weight: 400;
+    display: block;
+    text-align: center; 
+  }
+  
+  .title {
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center; 
+  }
+
 }
-
-
-.name-container .name {
-  font-size: 2.5rem;
-  font-weight: 400;
-  display: block;
-  text-align: center;
-  /* flex-grow: 2; */
-  /* flex-basis: 4; */
-}
-
-.name-container .title {
-  padding: 1rem 0;
-  font-size: 1.25rem;
-  font-weight: 400;
-  text-align: center;
-  /* flex-basis:1; */
-}
-
+ 
 .content-bottom { 
   width: 100vw;
   display: flex; 
@@ -61,59 +74,74 @@
   justify-content: center;
   align-items: center;
   font-family: 'Raleway', sans-serif;
+  
+  .tile {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0.25rem;
+    text-align: center; 
+    border: 1px solid #aaa;
+    width:85vw;
+    margin: 3rem auto;
+  }
 }
 
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  // height: 100vh;
+  flex-direction: column; 
   width: 100vw;
   padding: 3rem 0;
 }
 
-.content-bottom .tile {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  padding: 0.25rem;
-  text-align: center; 
-  border: 1px solid #aaa;
-  width:85vw;
-  margin: 3rem auto;
-}
-
 @media screen and (min-width: 600px) {
   .name-container {
-    width: 65vh; 
+    width: 65vw; 
+    .name {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+    .title { 
+      font-size: 1.75rem;
+      font-weight: 400;
+      text-align: center; 
+    }
   }
-  .name-container .name {
-    font-size: 3rem;
-    font-weight: 400;
+
+  .content-bottom {
+    .tile {
+      padding: 1rem;
+      width:60vw;
+      margin: 4.5rem auto;
+    }
+    .tile > div {
+      padding: 3.5rem;
+    }
   }
-  .name-container .title { 
-    font-size: 1.75rem;
-    font-weight: 400;
-    text-align: center;
-    /* flex-basis:1; */
-  }
-  .content-bottom .tile {
-    padding: 1rem;
-    width:60vw;
-    margin: 4.5rem auto;
-  }
+
   .section .title {
     font-size: 4.5rem;
-  }
-  .content-bottom .tile > div {
-    padding: 3.5rem;
-  }
+  } 
 }
 @media screen and (min-width: 992px) {
-  .name-container .name {
-    font-size: 4rem; 
-  }
+  .name-container {
+    width: 55vw;
+
+    .name {
+      font-size: 4rem; 
+    }
+  } 
+}
+@media screen and (min-width: 1200px) {
+  .name-container {
+    width: 50vw;
+
+    .name {
+      font-size: 4.5rem; 
+    }
+  } 
 }
  
 .section .title {
@@ -121,7 +149,6 @@
   font-family: 'Playfair Display', serif;
   margin: 1rem 0;
 }
-
 
 .work {
   .tile div {

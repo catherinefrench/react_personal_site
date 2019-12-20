@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.189cb07f.chunk.css",
+    "main.css": "/static/css/main.a55151db.chunk.css",
     "main.js": "/static/js/main.c710de57.chunk.js",
     "main.js.map": "/static/js/main.c710de57.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fe5a4692.js",
@@ -8,9 +8,9 @@
     "static/js/2.8ab06b6f.chunk.js": "/static/js/2.8ab06b6f.chunk.js",
     "static/js/2.8ab06b6f.chunk.js.map": "/static/js/2.8ab06b6f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8786fc6a279f01a4a1fd69f5229555b8.js": "/precache-manifest.8786fc6a279f01a4a1fd69f5229555b8.js",
+    "precache-manifest.70f56da8387101a763e47139346b64a7.js": "/precache-manifest.70f56da8387101a763e47139346b64a7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.189cb07f.chunk.css.map": "/static/css/main.189cb07f.chunk.css.map",
+    "static/css/main.a55151db.chunk.css.map": "/static/css/main.a55151db.chunk.css.map",
     "static/media/github.png": "/static/media/github.afb54e4e.png",
     "static/media/App.scss": "/static/media/trellis-tile-new.b449b96c.svg",
     "static/media/twitter.png": "/static/media/twitter.65a10b63.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.fe5a4692.js",
     "static/js/2.8ab06b6f.chunk.js",
-    "static/css/main.189cb07f.chunk.css",
+    "static/css/main.a55151db.chunk.css",
     "static/js/main.c710de57.chunk.js"
   ]
 }

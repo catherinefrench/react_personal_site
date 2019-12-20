@@ -28,14 +28,11 @@ const Experience = () => {
                     <p>My next promotion was 1 year later, to Team Lead. I managed half the 18 member Support team. I hired 8 team members and was the go-to on technical and after hours escalations. I also managed billable requests, ran daily stand-ups and promoted agile methodologies.</p>
                 </div>
             </div>
-
-
         </div>
     </div>
 
     )
 
 };
-
 
 export default Experience;

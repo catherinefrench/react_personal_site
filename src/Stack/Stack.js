@@ -37,7 +37,6 @@ const Stack = () => {
                         <i className="devicon-visualstudio-plain"></i>
                         <i className="devicon-github-plain"></i>
                         <i className="devicon-git-plain"></i>
-                        
                     </div>
                 </div>
             </div>
