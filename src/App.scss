@@ -206,10 +206,9 @@
     text-decoration: underline;
   }
 
-  .menu-container li a.active {
-    // font-weight: 700;
-    text-decoration: underline;
-  }
+  // .menu-container li a.active { 
+  //   text-decoration: underline;
+  // }
 
   @media screen and (min-width: 600px) {
     .menu-container ul li{
