@@ -35,8 +35,8 @@ const Experience = () => {
                 <div className="third tile">
                     <div className="text">
                         <h4 class="job-title">Front End Developer, Klick</h4>
-                        <p class="date">January 2020 - present</p>
-                        <p>I'm currently building the front-end of a website for a pharmaceutical client using JavaScript, SASS, HTML5</p>
+                        <p class="date">January 2020 - January 2020</p>
+                        <p>Contracted for 4 weeks to build the front-end of a website for a pharmaceutical client using JavaScript, SASS, HTML5</p>
                     </div>
                 </div>
             </div>
