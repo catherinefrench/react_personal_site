@@ -26,6 +26,7 @@ const Stack = () => {
                         <i className="devicon-ruby-plain"></i>
                         <i className="devicon-rails-plain"></i>
                         <i className="devicon-nodejs-plain"></i>
+                        <i className="devicon-php-plain"></i>
                     </div>
                 </div>
                 <div class="other">
